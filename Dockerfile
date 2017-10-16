@@ -1,4 +1,4 @@
-FROM resin/raspberry-pi-debian
+FROM resin/raspberrypi3-debian
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Start emulation: https://docs.resin.io/runtime/resin-base-images/
