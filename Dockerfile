@@ -47,10 +47,5 @@ RUN apt-get -q update \
  && apt-get -qy autoremove \
  && apt-get -q clean
 
-# Install the NodeSource repository as Node/NPM are unsupported on Stretch
-RUN vca-install-package gnupg curl \
- && curl -sL https://deb.nodesource.com/setup_6.x | bash - \
- && vca-uninstall-package curl
-
 # Stop emulation
 RUN [ "cross-build-end" ]
