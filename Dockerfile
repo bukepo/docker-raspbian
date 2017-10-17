@@ -12,7 +12,7 @@ ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="$PROJECT_NAME" \
       org.label-schema.description="A raspbian image that is updated daily to have all the latest packages" \
-      org.label-schema.url="https://www.debian.org/" \
+      org.label-schema.url="https://www.raspbian.org/" \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/vcatechnology/docker-raspbian" \
       org.label-schema.vendor="VCA Technology" \
