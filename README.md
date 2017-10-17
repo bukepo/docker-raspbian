@@ -1,9 +1,6 @@
 # Raspbian Docker Container
 
-[![][layers]][microbadger "Image Layers"]
-[![][version]][microbadger "Image Version"]
-[![][license]][microbadger"Image License"]
-[![][commit]][github "Image Commit"]
+[![][layers]][microbadger] [![][version]][microbadger] [![][license]][microbadger] [![][commit]][github]
 
 Built daily so that the image has the latest [Raspbian][project] packages.
 
@@ -20,11 +17,11 @@ packagemanager install binfmt-support qemu-user-static binfmt-qemu-static
 systemctl enable --now binfmt-support
 ```
 
-[docker-hub]: https://hub.docker.com/r/vcatechnology/raspbian/
-[project]: https://www.raspbian.org/
-[github]: https://github.com/vcatechnology/docker-arch
-[microbadger]: http://microbadger.com/images/vcatechnology/raspbian
-[layers]: https://images.microbadger.com/badges/image/vcatechnology/raspbian.svg
-[version]: https://images.microbadger.com/badges/version/vcatechnology/raspbian.svg
-[license]: https://images.microbadger.com/badges/license/vcatechnology/raspbian.svg
-[commit]: https://images.microbadger.com/badges/commit/vcatechnology/raspbian.svg
+[docker-hub]: https://hub.docker.com/r/vcatechnology/raspbian/ "Docker Hub"
+[project]: https://www.raspbian.org/ "Project"
+[github]: https://github.com/vcatechnology/docker-arch "GitHub"
+[microbadger]: http://microbadger.com/images/vcatechnology/raspbian "Microbadger"
+[layers]: https://images.microbadger.com/badges/image/vcatechnology/raspbian.svg "Image Layers"
+[version]: https://images.microbadger.com/badges/version/vcatechnology/raspbian.svg "Image Version"
+[license]: https://images.microbadger.com/badges/license/vcatechnology/raspbian.svg "Image License"
+[commit]: https://images.microbadger.com/badges/commit/vcatechnology/raspbian.svg "Image Commit"
